@@ -6,7 +6,7 @@ public class Group : MonoBehaviour
 {
 
     float lastFall = 0;
-    float harder = 0.5f;
+    public static float harder = 0.5f;
     void Start()
     {
         
@@ -19,7 +19,7 @@ public class Group : MonoBehaviour
     }
     void Update()
     {
-        HarderTheyFall();
+        Debug.Log(Group.harder);
         // Move Left
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
@@ -132,26 +132,7 @@ public class Group : MonoBehaviour
 
     public void HarderTheyFall()
     {
-        if (Itgetsharder.Ajastin < 10000)
-        {
-            harder = 0.5f;
-        }
-        if (Itgetsharder.Ajastin > 10000 && Itgetsharder.Ajastin < 20000 )
-        {
-            harder = 0.4f;
-        }
-        if (Itgetsharder.Ajastin > 20000 && Itgetsharder.Ajastin < 30000)
-        {
-            harder = 0.3f;
-        }
-        if (Itgetsharder.Ajastin > 30000 && Itgetsharder.Ajastin < 40000)
-        {
-            harder = 0.2f;
-        }
-        if (Itgetsharder.Ajastin > 40000)
-        {
-            harder = 0.15f;
-        }
+       
 
 
     }
