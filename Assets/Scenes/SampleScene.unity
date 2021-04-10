@@ -199,7 +199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77875920}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.5, y: 10, z: 0}
+  m_LocalPosition: {x: 6.5, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 40, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -414,10 +414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groups:
-  - {fileID: 7485429958342880605, guid: ffb801caaf450414ba5ab9e55494959a, type: 3}
-  - {fileID: 7628615655200659970, guid: 73e870ec3951e6941bc869c0fbf7548c, type: 3}
-  - {fileID: 1922991342328827033, guid: 37d130148ef61ea4fb32713160e09214, type: 3}
-  - {fileID: 8795571716252563833, guid: f6b6b83f58bd88f49b7dceeb1cff0ff1, type: 3}
-  - {fileID: 9050730244201103689, guid: 31e85918001c8ef46b87da3d38fbd94a, type: 3}
-  - {fileID: 372640644532853597, guid: 28566d9317ac52b40bba1a7adbd1800e, type: 3}
-  - {fileID: 5998760778712977170, guid: abb262f8f29cfcb408f512ecba529a72, type: 3}
+  - {fileID: 3223505005654405421, guid: e290d7d086165844a85dd21bc6864161, type: 3}
+  - {fileID: 1854026813494985942, guid: b90187075f2127c48af589ec5d4883ba, type: 3}
+  - {fileID: 1367970108335893163, guid: 1f65b29755583fc428cb3f1412a9ebbc, type: 3}
+  - {fileID: 9064815910402443206, guid: e555e908994c5e544a868a0ef9f9c8e3, type: 3}
