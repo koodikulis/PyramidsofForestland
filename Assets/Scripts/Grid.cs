@@ -30,6 +30,7 @@ public class Grid : MonoBehaviour
         {
             Destroy(grid[x, y].gameObject);
             grid[x, y] = null;
+            Points.Pisteita = Points.Pisteita + 1;
         }
     }
 

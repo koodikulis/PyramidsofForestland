@@ -66,7 +66,7 @@ public class Group : MonoBehaviour
 
         // Move Downwards and Fall
         else if (Input.GetKeyDown(KeyCode.DownArrow) ||
-                 Time.time - lastFall >= 0.4f)
+                 Time.time - lastFall >= harder)
         {
             // Modify position
             transform.position += new Vector3(0, -1, 0);
