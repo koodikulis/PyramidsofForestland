@@ -7,6 +7,7 @@ public class Points : MonoBehaviour
 {
     public static int Pisteita;
     public Text scoreText;
+    public Text HighscoreText;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,5 +18,6 @@ public class Points : MonoBehaviour
     private void Update()
     {
         scoreText.text = Pisteita.ToString();
+        HighscoreText.text = Group.highscore.ToString();
     }
 }

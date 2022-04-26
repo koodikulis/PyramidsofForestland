@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Group : MonoBehaviour
 {
 
     float lastFall = 0;
     public static float harder = 0.5f;
+    public static int highscore;
+
     void Start()
     {
         
@@ -15,6 +18,11 @@ public class Group : MonoBehaviour
         {
             Debug.Log("GAME OVER");
             Destroy(gameObject);
+            if (Points.Pisteita > highscore)
+            {
+                highscore = Points.Pisteita;
+            }
+            SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
         }
     }
     void Update()
